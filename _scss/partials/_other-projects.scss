@@ -1,7 +1,14 @@
 .other-projects {
+  .section__content {
+    display:flex;
+    flex-wrap: wrap;
+  }
+
   .project {
-    max-width: 600px;
+    max-width: 50%;
+    width: 50%;
     margin-bottom: 50px;
+    padding-right: 15px;
     &__name {
       margin-bottom: 10px;
     }
