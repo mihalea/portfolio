@@ -12,7 +12,7 @@
 - name: Reddifier
   url: https://github.com/mihalea/reddifier
   code: https://github.com/mihalea/reddifier
-  description: Desktop pplication used to monitor subreddits and notify the user of new posts
+  description: Desktop application used to monitor subreddits and notify the user of new posts
   used:
     - thing: C#
     - thing: Win Forms
@@ -29,7 +29,7 @@
 - name: MoonStats
   url: https://github.com/mihalea/moonstats
   code: https://github.com/mihalea/moonstats
-  description: Desktop pplication used to monitor, generate and display charts for cryptocurrency mining pools
+  description: Desktop application used to monitor, generate and display charts for cryptocurrency mining pools
   used:
     - thing: C#
     - thing: Win Forms

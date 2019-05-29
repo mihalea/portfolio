@@ -85,9 +85,9 @@ strong {
 }
 
 .section {
-  display: flex;
+  display: block;
   justify-content: center;
-  padding: 100px 170px;
+  padding: 50px 170px;
   @include thirteen {
     padding: 100px;
   }
@@ -102,25 +102,20 @@ strong {
   }
   &__title {
     flex-shrink: 0;
-    width: 200px;
-    margin-right: 70px;
     color: $blue;
     text-transform: uppercase;
-    text-align: right;
+    text-align: center;
     font-weight: 700;
     letter-spacing: 2px;
-    @include desktop {
-      margin-right: 50px;
-    }
-    @include little-desktop {
-      width: 150px;
-    }
-    @include tablet {
-      text-align: left;
-      width: auto;
-    }
+    font-size: 1.5em;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 15px 25px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid $black;
   }
   &__content {
+    margin: 0 auto;
     font-weight: 300;
     font-size: 1rem;
     width: 100%;
