@@ -1,8 +1,8 @@
 IMAGE := mihalea/portfolio
 
 image:
-	npm install
-	npm build
+	yarn
+	yarn build
 	docker build -t $(IMAGE) .
 
 publish:
