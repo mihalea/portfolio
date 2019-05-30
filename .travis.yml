@@ -1,0 +1,19 @@
+language: ruby
+
+if: branch = master
+
+services:
+  - 'docker'
+
+before_install:
+  - nvm install --lts
+  - nvm use --lts
+  - gem install jekyll sass bundler jekyll-minifier jekyll-sitemap
+  - npm install -g yarn
+
+script:
+  - make image
+
+after_success:
+  - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+  - make publish
