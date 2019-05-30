@@ -12,7 +12,8 @@ before_install:
   - npm install -g yarn
 
 script:
-  - 'make image'
+  - make image
 
 after_success:
-  - 'make publish'
+  - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+  - make publish
