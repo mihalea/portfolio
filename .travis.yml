@@ -1,0 +1,17 @@
+language: ruby
+
+services:
+  - 'docker'
+
+before_install:
+  - nvm install node
+  - gem install jekyll sass bundler jekyll-minifier jekyll-sitemap
+
+script:
+  - 'make build'
+
+after_success:
+  - if [[ "$TRAVIS_BRACH" == "travis-deploy" ]]; then
+      docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD;
+      make publish;
+    fi
