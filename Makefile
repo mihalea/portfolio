@@ -1,6 +1,6 @@
 IMAGE := mihalea/portfolio
 
-build:
+image:
 	npm install
 	npm build
 	docker build -t $(IMAGE) .
