@@ -1,5 +1,7 @@
 language: ruby
 
+if: branch = travis-deploy
+
 services:
   - 'docker'
 
@@ -13,7 +15,4 @@ script:
   - 'make image'
 
 after_success:
-  - if [[ "$TRAVIS_BRACH" == "travis-deploy" ]]; then
-      docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD;
-      make publish;
-    fi
+  - 'make publish'
