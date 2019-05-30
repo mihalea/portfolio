@@ -1,0 +1,40 @@
+- name: PUF-Enhanced Blockchain-based Tracking System for Trustworthy Multi-Party Supply Chains
+  subtitle: Fourth year group design project
+  used:
+    - thing: Java
+    - thing: Golang
+    - thing: Gitlab CI
+    - thing: Docker
+    - thing: Serial communications
+    - thing: Hyperledger Fabric
+    - thing: Apache CouchDB
+    - thing: Express.js
+
+
+  details:
+    - title: Blockchain infrastructure and smart contracts
+      content: test
+    - title: Client application and API
+      content: test 2
+    - title: Examination, testing and publication
+      content: test 5
+
+- name: Portfolio website
+  subtitle: Static website with automatic deployment
+  used:
+    - thing: Jekyll
+    - thing: TravisCI
+    - thing: Docker
+    - thing: Linux
+  details:
+    - title: Section title
+      content: test
+
+- name: Tales of Pom
+  subtitle: Procedurally generated dungeon crawler
+  used:
+    - thing: C#
+    - thing: Unity
+  details:
+    - title: Section title
+      content: test
