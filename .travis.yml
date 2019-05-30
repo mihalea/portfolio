@@ -1,6 +1,6 @@
 language: ruby
 
-if: branch = travis-deploy
+if: branch = master
 
 services:
   - 'docker'
