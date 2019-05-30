@@ -4,7 +4,8 @@ services:
   - 'docker'
 
 before_install:
-  - nvm install node
+  - nvm install --lts
+  - nvm use --lts
   - gem install jekyll sass bundler jekyll-minifier jekyll-sitemap
   - npm install -g yarn
 
