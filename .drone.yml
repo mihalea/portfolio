@@ -1,0 +1,15 @@
+pipeline:
+  build:
+    image: starefossen/ruby-node:2-8-alpine
+    commands:
+      - gem install jekyll sass bundler jekyll-minifier jekyll-sitemap
+      - yarn
+      - yarn build
+    when:
+      branch: drone-deploy
+  
+  master:
+    image: plugins/docker
+    repo: mihalea/portfolio
+    when:
+      branch: drone-deploy
