@@ -1,19 +1,42 @@
 <section class="section featured-projects">
   <div class="section__title">Featured Projects</div>
   <div class="section__content">
-    <div class="project blistabloc">
-      <figure class="project__pic">
-        <a href="https://blistabloc.com/" target="_blank">
-          <img src="{{site.baseurl}}/img/featured/blistabloc/blistabloc.png" alt="">
-        </a>
-      </figure>
-      <figcaption class="project__caption">
-        <div class="project__name">
-          <a href="https://blistabloc.com/" target="_blank">blistabloc</a>
-        </div>
-        <p>Custom wordpress theme built with Timber and Woocommerce for blistabloc, the only reactive shoe insert that prevents
-          blisters from forming.</p>
-      </figcaption>
+    {% for project in site.data.featured %}
+    <div class="project portfolio">
+      <div class="project__heading">
+        <span class="project__heading__name">{{project.name}}</span>
+        {% if project.subtitle %}
+        <small class="project__heading__subtitle">{{project.subtitle}}</small>
+        {% endif %}
+      </div>
+
+      {% if project.demo %}
+      <div class="project__demo"><a href={{project.demo}} target="_blank" alt="demo">Click here for demo</a></div>
+      {% endif %}
+
+      <div class="project__used">
+          {% for item in project.used %}
+          <span class="project__used__item">{{item.thing}}</span>
+          {% endfor %}
+      </div>
+
+      {% if project.image %}
+      <div class="project__cover">
+        <img src="{{project.image}}" />
+      </div>
+      {% endif %}
+
+      <div class="project__details">
+        {% for section in project.details %}
+        <section>
+          <h4 class="project__details__title">{{section.title}}</h4>
+          <p class="project__details__description">{{section.content}}</p>
+        </section>
+        {% endfor %}
+      </div>
+
+      
     </div>
+    {% endfor %}
   </div>
 </section>
