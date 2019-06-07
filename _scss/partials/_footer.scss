@@ -21,6 +21,8 @@
       margin-bottom: 25px;
     }
     .top, .bottom {
+      color: $dark-grey;
+
       @include weird-medium {
         display: inline-block;
       }
