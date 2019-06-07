@@ -6,17 +6,17 @@ url: https://mihalea.ro
 baseurl: ""
 email: mircea@mihalea.ro
 cover: https://mihalea.ro/img/og.png
-logo: https://mihalea.ro/img/emojis/technologist.png
+logo: https://mihalea.ro/img/favicon.png
 resume: https://mihalea.ro/resume.pdf
 social:
   - title: email
     url: mailto:mircea@mihalea.ro
-  - title: instagram
-    url: https://instagram.com/mirceamihalea
   - title: github
     url: https://github.com/mihalea
   - title: linkedin
     url: https://www.linkedin.com/in/mihalea-mircea
+  - title: instagram
+    url: https://instagram.com/mirceamihalea
 
 # Build settings
 markdown: kramdown

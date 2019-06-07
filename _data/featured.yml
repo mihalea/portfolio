@@ -1,0 +1,45 @@
+- name: PUF-Enhanced Blockchain-based Tracking System for Trustworthy Multi-Party Supply Chains
+  subtitle: Fourth year group design project for the DSTL and paper submitted to IEEE
+  used:
+    - thing: Java
+    - thing: Golang
+    - thing: Gitlab CI
+    - thing: Docker
+    - thing: Serial communications
+    - thing: Hyperledger Fabric
+    - thing: Apache CouchDB
+    - thing: Express.js
+
+
+  details:
+    - title: Blockchain infrastructure and smart contracts
+      content: Created a simple demo architecture using Docker with multiple organisation with Hyperledger Fabric, Hyperledger Fabric CA's and Apache Couch databases in order to simulate a small-scale supply chain. Added a RESTful API based on Express.js which calls smart contracts written in Golang to facilitate interfacing with the blockchain. System and unit tests have been written in Mocha using Istanbul and automatically run using continuous integration with Gitlab CI.
+
+    - title: Client application and hardware
+      content: Built a client desktop application to provide a GUI allowing users to access both the API and the PUF, which was implemented on an FPGA, using serial communications.
+
+    - title: Examination, testing and publication
+      content: A thorough examination has been undertaken to ensure the correctness of the solution. Further work was needed in close relation with our supervisors Multiple tests have been created to analyse the performance and security of the project, work which has been summarised in a paper submitted to IEEE's Transactions on Communication and is currently under peer review.
+
+- name: Portfolio website
+  subtitle: Responsive website with automatic deployment
+  used:
+    - thing: Jekyll
+    - thing: TravisCI
+    - thing: Docker
+    - thing: Linux
+  details:
+    - title: Description
+      content: Static website with a responsive layout built using Jekyll, and dockerised to allow for continuous deployment. TravisCI is used to automatically build a new Docker image when pushed to master, and push it to Docker Hub. Using webhooks, the deployment server is notified of the new Docker image and updates and restarts the necessary services. The needed containers are then served securely through a reverse proxy using Traefik and Let's Encrypt.
+  image: ../img/featured/portfolio.png
+
+- name: Tales of Pom
+  subtitle: Procedurally generated dungeon crawler demo
+  demo: https://demo.mihalea.ro/top
+  used:
+    - thing: C#
+    - thing: Unity
+  details:
+    - title: Description
+      content: Dungeon crawler created for 'COMP3218 Game Design and Development' in a hackathon-ish manner in less than 48 hours in a team of two. It focuses on innovation and procedural generation and allows for infinite replayability.
+  image: ../img/featured/pom.png
