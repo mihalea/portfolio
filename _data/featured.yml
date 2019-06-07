@@ -35,6 +35,7 @@
 
 - name: Tales of Pom
   subtitle: Procedurally generated dungeon crawler demo
+  demo: https://demo.mihalea.ro/top
   used:
     - thing: C#
     - thing: Unity

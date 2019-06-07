@@ -3,12 +3,16 @@
   <div class="section__content">
     {% for project in site.data.featured %}
     <div class="project portfolio">
-      <h3 class="project__heading">
+      <div class="project__heading">
         <span class="project__heading__name">{{project.name}}</span>
         {% if project.subtitle %}
         <small class="project__heading__subtitle">{{project.subtitle}}</small>
         {% endif %}
-      </h3>
+      </div>
+
+      {% if project.demo %}
+      <div class="project__demo"><a href={{project.demo}} target="_blank" alt="demo">Click here for demo</a></div>
+      {% endif %}
 
       <div class="project__used">
           {% for item in project.used %}
