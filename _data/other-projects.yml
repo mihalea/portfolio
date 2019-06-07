@@ -1,3 +1,98 @@
+- name: CraftyMcCraft
+  url: \#
+  code: https://github.com/mihalea/craftymccraft
+  description: Script used to monitor a github profile and notify through email of inactivity
+  used:
+    - thing: Python
+    - thing: BeautifulSoup
+    - thing: Pillow
+    - thing: Selenium
+    - thing: Node.js
+    - thing: MongoDB
+    - thing: Express.js
+    - thing: React.js
+    - thing: Flux
+
+
+- name: dotfiles
+  url: https://github.com/mihalea/dotfiles
+  code: https://github.com/mihalea/dotfiles
+  description: Configuration files and scripts used to enhance linux experiences
+  used:
+    - thing: Bash
+    - thing: Python
+    - thing: Linux
+
+- name: pcl.js
+  url: https://github.com/mihalea/pcl.js
+  code: https://github.com/mihalea/pcl.js
+  description: Inject custom links into Plex sidebar using Javascript
+  used:
+    - thing: JavaScript
+    - thing: JQuery
+
+- name: Mems
+  url: https://mems.mihalea.me
+  code: https://github.com/mihalea/mems
+  description: Behavioural analysis of meme saving patterns using D3.js
+  used:
+    - thing: JavaScript
+    - thing: D3.js
+    - thing: Python
+
+- name: Latex-cv
+  url: https://github.com/mihalea/Latex-cv
+  code: https://github.com/mihalea/Latex-cv
+  description: Personal resume written in XeLaTex
+  used:
+    - thing: XeLaTex
+
+- name: Cratewars
+  url: \#
+  code: https://github.com/mihalea/cratewars
+  description: Creation of JSON dataset containing Rocket League in-game items by scraping trading websites
+  used:
+    - thing: Python
+    - thing: BeautifulSoup
+
+- name: userscripts
+  url: https://github.com/mihalea/userscripts
+  code: https://github.com/mihalea/userscripts
+  description: Collection of userscripts for usage in browsers
+  used:
+    - thing: JavaScript
+
+- name: HouseHub
+  url: https://github.com/mihalea/househub
+  code: https://github.com/mihalea/househub
+  description: Demo website of a fictional letting agency created for COMP6205
+  used:
+    - thing: C#
+    - thing: ASP.NET Core
+    - thing: Azure
+    - thing: Gulp
+    - thing: Sass
+
+- name: Deerkat
+  url: https://github.com/mihalea/deerkat
+  code: https://github.com/mihalea/deerkat
+  description: Application that parses statements from HSBC AE from HTML, categorises transactions and exports them to CSV
+  used:
+    - thing: Java
+    - thing: JavaFX
+    - thing: Gradle
+    - thing: SQLite
+    - thing: Jsoup
+
+- name: Kai
+  url: https://github.com/mihalea/Kai
+  code: https://github.com/mihalea/Kai
+  description: Food ordering website built for a client
+  used:
+    - thing: Python
+    - thing: Django
+    - thing: Sass
+
 - name: barebones
   url: https://github.com/mihalea/barebones
   code: https://github.com/mihalea/barebones
@@ -113,93 +208,6 @@
     - thing: Python
     - thing: Instagram API
 
-- name: dotfiles
-  url: https://github.com/mihalea/dotfiles
-  code: https://github.com/mihalea/dotfiles
-  description: Configuration files and scripts used to enhance linux experiences
-  used:
-    - thing: Bash
-    - thing: Python
-    - thing: Linux
-
-- name: pcl.js
-  url: https://github.com/mihalea/pcl.js
-  code: https://github.com/mihalea/pcl.js
-  description: Inject custom links into Plex sidebar using Javascript
-  used:
-    - thing: JavaScript
-    - thing: JQuery
-
-- name: pcl.js
-  url: https://github.com/mihalea/pcl.js
-  code: https://github.com/mihalea/pcl.js
-  description: Inject custom links into Plex sidebar using Javascript
-  used:
-    - thing: JavaScript
-    - thing: JQuery
-
-- name: Mems
-  url: https://mems.mihalea.me
-  code: https://github.com/mihalea/mems
-  description: Behavioural analysis of meme saving patterns using D3.js
-  used:
-    - thing: JavaScript
-    - thing: D3.js
-    - thing: Python
-
-- name: Latex-cv
-  url: https://github.com/mihalea/Latex-cv
-  code: https://github.com/mihalea/Latex-cv
-  description: Personal resume written in XeLaTex
-  used:
-    - thing: XeLaTex
-
-- name: Cratewars
-  url: https://github.com/mihalea/cratewars
-  code: https://github.com/mihalea/cratewars
-  description: Creation of JSON dataset containing Rocket League in-game items by scraping trading websites
-  used:
-    - thing: Python
-    - thing: BeautifulSoup
-
-- name: userscripts
-  url: https://github.com/mihalea/userscripts
-  code: https://github.com/mihalea/userscripts
-  description: Collection of userscripts for usage in browsers
-  used:
-    - thing: JavaScript
-
-- name: HouseHub
-  url: https://github.com/mihalea/househub
-  code: https://github.com/mihalea/househub
-  description: Demo website of a fictional letting agency created for COMP6205
-  used:
-    - thing: C#
-    - thing: ASP.NET Core
-    - thing: Azure
-    - thing: Gulp
-    - thing: Sass
-
-- name: Deerkat
-  url: https://github.com/mihalea/deerkat
-  code: https://github.com/mihalea/deerkat
-  description: Application that parses statements from HSBC AE from HTML, categorises transactions and exports them to CSV
-  used:
-    - thing: Java
-    - thing: JavaFX
-    - thing: Gradle
-    - thing: SQLite
-    - thing: Jsoup
-
-- name: Kai
-  url: https://github.com/mihalea/Kai
-  code: https://github.com/mihalea/Kai
-  description: Food ordering website built for a client
-  used:
-    - thing: Python
-    - thing: Django
-    - thing: Sass
-
 - name: Dare
   url: https://github.com/mihalea/Dare
   code: https://github.com/mihalea/Dare
@@ -207,18 +215,3 @@
   used:
     - thing: Python
     - thing: Github API
-
-- name: CraftyMcCraft
-  url: https://github.com/mihalea/craftymccraft
-  code: https://github.com/mihalea/craftymccraft
-  description: Script used to monitor a github profile and notify through email of inactivity
-  used:
-    - thing: Python
-    - thing: BeautifulSoup
-    - thing: Pillow
-    - thing: Selenium
-    - thing: Node.js
-    - thing: MongoDB
-    - thing: Express.js
-    - thing: React.js
-    - thing: Flux
