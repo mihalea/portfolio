@@ -20,7 +20,7 @@
       content: test 5
 
 - name: Portfolio website
-  subtitle: Static website with automatic deployment
+  subtitle: Responsive website with automatic deployment
   used:
     - thing: Jekyll
     - thing: TravisCI
@@ -29,6 +29,7 @@
   details:
     - title: Section title
       content: test
+  image: ../img/featured/portfolio.png
 
 - name: Tales of Pom
   subtitle: Procedurally generated dungeon crawler
@@ -38,3 +39,4 @@
   details:
     - title: Section title
       content: test
+  image: ../img/featured/pom.png

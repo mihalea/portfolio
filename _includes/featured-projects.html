@@ -16,6 +16,12 @@
           {% endfor %}
       </div>
 
+      {% if project.image %}
+      <div class="project__cover">
+        <img src="{{project.image}}" />
+      </div>
+      {% endif %}
+
       <div class="project__details">
         {% for section in project.details %}
         <section>
@@ -24,6 +30,7 @@
         </section>
         {% endfor %}
       </div>
+
       
     </div>
     {% endfor %}
