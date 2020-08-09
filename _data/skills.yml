@@ -1,16 +1,16 @@
 languages:
-  - item: Java
   - item: Python
   - item: Bash
-  - item: JavaScript (ES6)
-  - item: HTML
-  - item: CSS/Sass
+  - item: Java
   - item: C#
+  - item: JavaScript (ES6)
+  - item: CSS/Sass
+  - item: HTML
 
 
 frameworks:
-  - item: React
   - item: JavaFX
+  - item: React
   - item: Swing
   - item: D3
   - item: Django
@@ -18,8 +18,8 @@ frameworks:
 
 tools:
   - item: Ubuntu Server
-  - item: Unity 3D
-  - item: MongoDB
   - item: Docker
   - item: Latex
+  - item: Unity 3D
+  - item: MongoDB
   - item: Git & Github
