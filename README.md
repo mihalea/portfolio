@@ -1,6 +1,6 @@
 ## Personal portfolio website
-[![Build Status](https://travis-ci.org/mihalea/portfolio.svg?branch=master)](https://travis-ci.org/mihalea/portfolio)
-[![](https://images.microbadger.com/badges/image/mihalea/portfolio.svg)](https://microbadger.com/images/mihalea/portfolio "Get your own image badge on microbadger.com")
+[![Build Status](https://travis-ci.com/mihalea/portfolio.svg?branch=master)](https://travis-ci.org/mihalea/portfolio)
+[![](https://images.microbadger.com/badges/image/mihalea/portfolio.svg)](https://microbadger.com/images/mihalea/portfolio)
 
 ## Getting Started
 
