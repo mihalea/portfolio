@@ -23,6 +23,41 @@
     margin: 0 auto;
   }
 
+  .arrow {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: bob;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+
+    span {
+      display: block;
+      width: 1rem;
+      height: 1rem;
+      border-bottom: 2px solid #fff;
+      border-right: 2px solid #fff;
+      transform: rotate(45deg);
+    }
+
+    @keyframes bob {
+      from {
+        transform: none;
+      }
+
+      50% {
+        transform: translateY(-100%);
+      }
+
+      to {
+        transform: none;
+      }
+    }
+  }
+  
+
   &__hello, &__tagline {
     font-size: 2.5rem;
     @include desktop {
