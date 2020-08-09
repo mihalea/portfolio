@@ -1,5 +1,5 @@
 - name: PUF-Enhanced Blockchain-based Tracking System for Trustworthy Multi-Party Supply Chains
-  subtitle: Fourth year group design project for the DSTL and paper submitted to IEEE
+  subtitle: Fourth year group design project for the DSTL
   used:
     - thing: Java
     - thing: Golang
@@ -9,8 +9,6 @@
     - thing: Hyperledger Fabric
     - thing: Apache CouchDB
     - thing: Express.js
-
-
   details:
     - title: Blockchain infrastructure and smart contracts
       content: Created a simple demo architecture using Docker with multiple organisation with Hyperledger Fabric, Hyperledger Fabric CA's and Apache Couch databases in order to simulate a small-scale supply chain. Added a RESTful API based on Express.js which calls smart contracts written in Golang to facilitate interfacing with the blockchain. System and unit tests have been written in Mocha using Istanbul and automatically run using continuous integration with Gitlab CI.
