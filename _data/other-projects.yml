@@ -1,18 +1,29 @@
-- name: CraftyMcCraft
-  url: \#
-  code: https://github.com/mihalea/craftymccraft
-  description: Script used to monitor a github profile and notify through email of inactivity
+- name: i3expo
+  url: https://github.com/mihalea/i3expo
+  code: https://github.com/mihalea/i3expo
+  description: Display an overview of all open workspaces for i3wm 
   used:
     - thing: Python
-    - thing: BeautifulSoup
-    - thing: Pillow
-    - thing: Selenium
-    - thing: Node.js
-    - thing: MongoDB
-    - thing: Express.js
-    - thing: React.js
-    - thing: Flux
+    - thing: TravisCI
+    - thing: Arch User Repository
 
+- name: bitwarden-pyro
+  url: https://github.com/mihalea/bitwarden-pyro
+  code: https://github.com/mihalea/bitwarden-pyro
+  description: Bitwarden python interface built on Rofi, allowing for fast selection and insertion of passwords
+  used:
+    - thing: Python
+    - thing: TravisCI
+    - thing: Arch User Repository
+
+- name: i3-workspace-names
+  url: https://github.com/mihalea/i3-workspace-names
+  code: https://github.com/mihalea/i3-workspace-names
+  description: Update workspace numbers with window names or font icons to reflect windows contained within
+  used:
+    - thing: Python
+    - thing: TravisCI
+    - thing: Arch User Repository
 
 - name: dotfiles
   url: https://github.com/mihalea/dotfiles
@@ -72,6 +83,21 @@
     - thing: Azure
     - thing: Gulp
     - thing: Sass
+
+- name: CraftyMcCraft
+  url: \#
+  code: https://github.com/mihalea/craftymccraft
+  description: Script used to monitor a github profile and notify through email of inactivity
+  used:
+    - thing: Python
+    - thing: BeautifulSoup
+    - thing: Pillow
+    - thing: Selenium
+    - thing: Node.js
+    - thing: MongoDB
+    - thing: Express.js
+    - thing: React.js
+    - thing: Flux
 
 - name: Deerkat
   url: https://github.com/mihalea/deerkat
